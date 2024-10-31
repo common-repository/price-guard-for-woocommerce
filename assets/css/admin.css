@@ -1,0 +1,70 @@
+.price-guard-settings-wrap {
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.price-guard-settings-wrap h2 {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.price-guard-settings-wrap .form-table th {
+    width: 250px;
+    padding: 20px 10px 20px 0;
+}
+
+.price-guard-settings-wrap .form-table td {
+    padding: 15px 10px;
+}
+
+.price-guard-settings-wrap input[type="text"],
+.price-guard-settings-wrap select {
+    width: 300px;
+    max-width: 100%;
+}
+
+.price-guard-settings-wrap .description {
+    font-style: italic;
+    color: #666;
+    margin-top: 5px;
+}
+
+
+
+/* Disabled input styles */
+.price-guard-settings-wrap input[disabled],
+.price-guard-settings-wrap select[disabled],
+.price-guard-settings-wrap .select2-container--disabled
+ {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* Section separation */
+.price-guard-settings-wrap .price-guard-section-end {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+/* Radio button styles */
+.price-guard-settings-wrap input[type="radio"] {
+    margin-right: 5px;
+}
+
+.price-guard-settings-wrap .radio-option {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Checkbox styles */
+.price-guard-settings-wrap input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Select styles */
+.price-guard-settings-wrap .wc-enhanced-select {
+    width: 300px;
+}
+
